@@ -1,0 +1,43 @@
+/* Google fonts using EB Garamond and Poppins */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&family=Poppins:wght@400;700;800&display=swap');
+
+.eg_garamond {
+    font-family: 'EB Garamond', serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h_color {
+    background: #414040;
+}
+
+.p_color {
+    background: #707070;
+}
+
+.btn_bg {
+    background: #b68c5a;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button, a {
+    transition: all 0.5s;
+}
+
+.header_info_area {
+    background-image: url(../images/banner.png);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
