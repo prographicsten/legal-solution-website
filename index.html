@@ -13,38 +13,49 @@
 </head>
 <body>
     <!-- header area start -->
-    <header class="header_area px-4 md:px-10 py-12 lg:px-[125px]">
+    <header class="header_area px-4 sm:px-5 md:px-8 lg:px-80 py-5">
         <!-- nav area start -->
-        <section class="nav_area md:flex lg:flex  items-center text-center">
-            <div class="logo text-center flex justify-center">
-                <img class="w-52 md:w-52" src="images/logo2.png" alt="">
-            </div>
-
-            <ul class="flex-1 flex items-center justify-center gap-6 text-sm sm:text-sm my-4 poppins">
-                <li class="hover:text-red-600"><a href="">Home</a></li>
-                <li class="hover:text-red-600"><a href="">Services</a></li>
-                <li class="hover:text-red-600"><a href="">Cases</a></li>
-                <li class="hover:text-red-600"><a href="">Blog</a></li>
-                <li class="hover:text-red-600"><a href="">Contact Us</a></li>
-            </ul>
-
-            <div class="nav_btn">
-                <button class="btn btn_bg py-3 px-7 lg:py-4 lg:px-8 rounded-lg hover:text-white hover:bg-black poppins">Free Consultation</button>
-            </div>
+        <section class="nav_area">
+            <div class="navbar">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box min-w-max">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Cases</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <a class=""><img src="images/logo2.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Cases</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end ">
+                  <a class="btn btn_bg capitalize outline-none border-none text-white hover:text-black">Free Consultation</a>
+                </div>
+              </div>
         </section>
-        <!-- header info area -->
-        <section class="header_info_area nav_area md:flex lg:flex items-center text-center justify-center mt-8 overflow-hidden">
-            <div class="header_info px-3 py-7 md:px-10 md:py-8 lg:py-32 lg:px-60">
-                <h2 class="text-4xl sm:text-6xl md:text-5xl lg:text-7xl font-extrabold text-white eg_garamond">We Provide Effective 
-                   <br> Legal Solutions
-                </h2>
-                <p class="poppins sm:text-sm text-white font-normal my-6">There are many variations of passages of Lorem Ipsum available, but the majority <br> 
-                    have suffered alteration in some form, by injected humour.
-                </p>
-
-                <div class="header_form flex lg:flex justify-center lg:justify-between gap-3">
-                    <input class="py-3 px-4 w-[60%] lg:w-[76%] rounded-lg outline-none" type="text" placeholder="Search your services">
-                    <button class="btn btn_bg py-3 px-7 rounded-lg hover:text-white hover:bg-black lg:w-[20%]">Search</button>
+        <!-- nav hero section start -->
+        <section class="nav_hero_area flex items-center justify-center text-center mt-10">
+            <div class="hero_content flex-col text-center justify-center justify-items-center my-10 px-3">
+                <h2 class="text-white text-[35px] sm:text-[40px] lg:text-7xl font-bold eg_garamond">We Provide Effective 
+                    <br> Legal Solutions</h2>
+                <p class="poppins text-sm sm:text-sm md:text-sm lg:text-base font-normal text-white my-5">There are many variations of passages of Lorem Ipsum available, but the majority 
+                    <br> have suffered alteration in some form, by injected humour.</p>
+                <div class="submit_input flex items-center justify-center gap-5">
+                    <input class="py-3 px-4 rounded-lg w-full" type="text" placeholder="Search your services">
+                    <a class="btn btn_bg capitalize outline-none border-none text-white px-10 hover:text-black">Search</a>
                 </div>
             </div>
         </section>

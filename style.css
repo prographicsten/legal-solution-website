@@ -33,11 +33,12 @@ button, a {
     transition: all 0.5s;
 }
 
-.header_info_area {
-    background-image: url(../images/banner.png);
+.nav_hero_area {
     width: 100%;
     height: auto;
+    background-image: url(../images/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: left center;
+    border-radius: 8px;
 }
