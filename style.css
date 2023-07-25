@@ -33,16 +33,6 @@ button, a {
     transition: all 0.5s;
 }
 
-.nav_hero_area {
-    width: 100%;
-    height: auto;
-    background-image: url(../images/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left center;
-    border-radius: 8px;
-}
-
 .legal_box {
     transition: all 0.5s;
 }
