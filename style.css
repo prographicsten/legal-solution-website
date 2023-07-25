@@ -42,3 +42,11 @@ button, a {
     background-position: left center;
     border-radius: 8px;
 }
+
+.legal_box {
+    transition: all 0.5s;
+}
+
+.legal_box:hover {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%);
+}
